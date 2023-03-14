@@ -11,9 +11,19 @@
 		041C8C3B29C0259600B3670E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C3A29C0259600B3670E /* ContentView.swift */; };
 		041C8C3D29C0259900B3670E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C8C3C29C0259900B3670E /* Assets.xcassets */; };
 		041C8C4029C0259900B3670E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C8C3F29C0259900B3670E /* Preview Assets.xcassets */; };
-		041C8C4A29C0259A00B3670E /* iOSExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C4929C0259A00B3670E /* iOSExerciseTests.swift */; };
 		041C8C5429C0259A00B3670E /* iOSExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C5329C0259A00B3670E /* iOSExerciseUITests.swift */; };
 		041C8C5629C0259A00B3670E /* iOSExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C5529C0259A00B3670E /* iOSExerciseUITestsLaunchTests.swift */; };
+		041C8C6A29C0274700B3670E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C6929C0274700B3670E /* NetworkService.swift */; };
+		041C8C6C29C0275500B3670E /* NetworkSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C6B29C0275500B3670E /* NetworkSessionManager.swift */; };
+		041C8C6E29C0276300B3670E /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C6D29C0276300B3670E /* EndPoint.swift */; };
+		041C8C7029C027AC00B3670E /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C6F29C027AC00B3670E /* AppConfiguration.swift */; };
+		041C8C7329C0286100B3670E /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C7229C0286100B3670E /* APIEndpoints.swift */; };
+		041C8C7529C0288800B3670E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C7429C0288800B3670E /* User.swift */; };
+		041C8C7729C0289400B3670E /* UserAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C7629C0289400B3670E /* UserAlbum.swift */; };
+		041C8C7929C028A000B3670E /* UserPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C7829C028A000B3670E /* UserPhoto.swift */; };
+		041C8C7D29C0291E00B3670E /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C7C29C0291E00B3670E /* NetworkServiceTests.swift */; };
+		041C8C7F29C0297000B3670E /* AppDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C7E29C0297000B3670E /* AppDataService.swift */; };
+		041C8C8129C029A300B3670E /* AppDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C8029C029A300B3670E /* AppDataServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +50,21 @@
 		041C8C3C29C0259900B3670E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041C8C3F29C0259900B3670E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		041C8C4529C0259900B3670E /* iOSExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		041C8C4929C0259A00B3670E /* iOSExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExerciseTests.swift; sourceTree = "<group>"; };
 		041C8C4F29C0259A00B3670E /* iOSExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C8C5329C0259A00B3670E /* iOSExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExerciseUITests.swift; sourceTree = "<group>"; };
 		041C8C5529C0259A00B3670E /* iOSExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		041C8C6929C0274700B3670E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		041C8C6B29C0275500B3670E /* NetworkSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionManager.swift; sourceTree = "<group>"; };
+		041C8C6D29C0276300B3670E /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		041C8C6F29C027AC00B3670E /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		041C8C7129C0280F00B3670E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041C8C7229C0286100B3670E /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		041C8C7429C0288800B3670E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		041C8C7629C0289400B3670E /* UserAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAlbum.swift; sourceTree = "<group>"; };
+		041C8C7829C028A000B3670E /* UserPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhoto.swift; sourceTree = "<group>"; };
+		041C8C7C29C0291E00B3670E /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		041C8C7E29C0297000B3670E /* AppDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataService.swift; sourceTree = "<group>"; };
+		041C8C8029C029A300B3670E /* AppDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +115,12 @@
 		041C8C3729C0259600B3670E /* iOSExercise */ = {
 			isa = PBXGroup;
 			children = (
-				041C8C3829C0259600B3670E /* iOSExerciseApp.swift */,
-				041C8C3A29C0259600B3670E /* ContentView.swift */,
-				041C8C3C29C0259900B3670E /* Assets.xcassets */,
-				041C8C3E29C0259900B3670E /* Preview Content */,
+				041C8C6529C0269E00B3670E /* Application */,
+				041C8C6429C0268400B3670E /* Models */,
+				041C8C6229C0266B00B3670E /* Views */,
+				041C8C6329C0267700B3670E /* ViewModels */,
+				041C8C6729C026F900B3670E /* Services */,
+				041C8C6629C026AD00B3670E /* Resources */,
 			);
 			path = iOSExercise;
 			sourceTree = "<group>";
@@ -113,7 +136,7 @@
 		041C8C4829C0259A00B3670E /* iOSExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				041C8C4929C0259A00B3670E /* iOSExerciseTests.swift */,
+				041C8C7A29C028F100B3670E /* Services */,
 			);
 			path = iOSExerciseTests;
 			sourceTree = "<group>";
@@ -125,6 +148,87 @@
 				041C8C5529C0259A00B3670E /* iOSExerciseUITestsLaunchTests.swift */,
 			);
 			path = iOSExerciseUITests;
+			sourceTree = "<group>";
+		};
+		041C8C6229C0266B00B3670E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C3A29C0259600B3670E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		041C8C6329C0267700B3670E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		041C8C6429C0268400B3670E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C7429C0288800B3670E /* User.swift */,
+				041C8C7629C0289400B3670E /* UserAlbum.swift */,
+				041C8C7829C028A000B3670E /* UserPhoto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		041C8C6529C0269E00B3670E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C3829C0259600B3670E /* iOSExerciseApp.swift */,
+				041C8C6F29C027AC00B3670E /* AppConfiguration.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		041C8C6629C026AD00B3670E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C7129C0280F00B3670E /* Info.plist */,
+				041C8C3E29C0259900B3670E /* Preview Content */,
+				041C8C3C29C0259900B3670E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		041C8C6729C026F900B3670E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C7E29C0297000B3670E /* AppDataService.swift */,
+				041C8C6829C0271600B3670E /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		041C8C6829C0271600B3670E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C6929C0274700B3670E /* NetworkService.swift */,
+				041C8C6B29C0275500B3670E /* NetworkSessionManager.swift */,
+				041C8C6D29C0276300B3670E /* EndPoint.swift */,
+				041C8C7229C0286100B3670E /* APIEndpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		041C8C7A29C028F100B3670E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C8029C029A300B3670E /* AppDataServiceTests.swift */,
+				041C8C7B29C028FB00B3670E /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		041C8C7B29C028FB00B3670E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				041C8C7C29C0291E00B3670E /* NetworkServiceTests.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041C8C7F29C0297000B3670E /* AppDataService.swift in Sources */,
+				041C8C7029C027AC00B3670E /* AppConfiguration.swift in Sources */,
+				041C8C7929C028A000B3670E /* UserPhoto.swift in Sources */,
+				041C8C7329C0286100B3670E /* APIEndpoints.swift in Sources */,
 				041C8C3B29C0259600B3670E /* ContentView.swift in Sources */,
+				041C8C7729C0289400B3670E /* UserAlbum.swift in Sources */,
+				041C8C6A29C0274700B3670E /* NetworkService.swift in Sources */,
+				041C8C7529C0288800B3670E /* User.swift in Sources */,
+				041C8C6E29C0276300B3670E /* EndPoint.swift in Sources */,
 				041C8C3929C0259600B3670E /* iOSExerciseApp.swift in Sources */,
+				041C8C6C29C0275500B3670E /* NetworkSessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041C8C4A29C0259A00B3670E /* iOSExerciseTests.swift in Sources */,
+				041C8C8129C029A300B3670E /* AppDataServiceTests.swift in Sources */,
+				041C8C7D29C0291E00B3670E /* NetworkServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +532,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOSExercise/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOSExercise/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSExercise/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,9 +561,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOSExercise/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOSExercise/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSExercise/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
