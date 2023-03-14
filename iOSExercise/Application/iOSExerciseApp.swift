@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct iOSExerciseApp: App {
+    
+    @StateObject var coordinator = AlbumListCoordinator(appDataService: DataFetchService(networkService: NetworkFetchService(sessionManager: SessionManager())))
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainHomeView(coordinator: coordinator)
         }
     }
 }
