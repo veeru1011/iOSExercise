@@ -3,7 +3,7 @@ Technology Assessment
 
 **What am I building?**
 
-The final result of this task is to have an View for displaying Album List after getting in a from Api for a random user and after navigating display list of Photos for perticular Album, After tapping on Photo open a detail page for Photo which displaying Photo with title.
+The final result of this task is to have a View for displaying Album List after getting in a from Api for a random user and after navigating display list of Photos for particular Album, After tapping on Photo open a detail page for Photo which displaying Photo with title.
 
 **In this project:**
 
@@ -12,7 +12,7 @@ The final result of this task is to have an View for displaying Album List after
 
 
   **Models:**
-  - From API data four type of datamodel created those are User,UserAlbum, UserPhoto 
+  - From API data datamodels are created, which are User, Company, Address, UserAlbum, UserPhoto 
   
   
   **View:**
